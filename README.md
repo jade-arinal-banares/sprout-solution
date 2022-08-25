@@ -36,9 +36,12 @@ Requirements:
 
 ### Screenshot
 
-![Design preview for the Employee Page](./readme_images/Dashboard.jpg)
-![Mobile Layout](./readme_images/Mobile-Phone.svg)
-![Online Payment](./readme_images/Online-Payment.png)
+Design
+
+![Sprout Solution](./sprout_img/sXjrfdHmqwE.png)
+
+My Output
+![Sprout Solution](./sprout_img/)
 
 ### Website
 
