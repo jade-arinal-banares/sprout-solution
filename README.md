@@ -1,6 +1,6 @@
 # Welcome to Sprout Solution!
 
-![Design preview for the Landing Page](./readme_images/Landing_Page.jpg)
+![Design preview for the Landing Page](./sprout_img/xDscnHgsjds.svg)
 
 ## Table of contents
 - [Overview](#overview)
@@ -9,6 +9,7 @@
   - [Website](#website)
 - [My process](#my-process)
   - [Built with](#built-with)
+- [Resources](#resources)
 
 ## Overview
 
@@ -36,12 +37,9 @@ Requirements:
 
 ### Screenshot
 
-Design
+My Output
 
 ![Sprout Solution](./sprout_img/sXjrfdHmqwE.png)
-
-My Output
-![Sprout Solution](./sprout_img/)
 
 ### Website
 
@@ -56,3 +54,8 @@ My Output
 - CSS Grid
 - Desktop First Workflow
 - Bootstrap
+
+## Resources
+
+- Bootstrap: [Bootstrap](https://getbootstrap.com/)
+- Vue JS: [VueJS](https://vuejs.org/)
