@@ -1,7 +1,7 @@
 
 
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark sprout-nav">
         <div>
             <a class="navbar-brand" href="#">
                 <img src="../icon/sJUdkghHsd.png" class="sprout-logo" alt=""> <span class="gray">|</span> HR
@@ -76,12 +76,17 @@
                             <div class="input-group-append">
                                 <span class="input-group-text bg-none" id="basic-addon2"><button class="search-btn" name="submit"><i class="fa fa-search"></i></button> </span>
                             </div>
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-none" id="basic-addon2"><button class="search-btn" name="submit"><i class="fa fa-bell-o"></i></button> </span>
+                            </div>
+                           
                         </div>
                     </form>
                 </li>
 
-                <li class="nav-item dropdown row justify-content-end">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <li class="nav-item dropdown d-flex">
+                    <div class="profile"></div>
+                    <a class="nav-link dropdown-toggle admin justify-content-end" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Admin
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -98,6 +103,9 @@
 </template>
 
 <style>
+    .sprout-nav{
+        background: #333333;
+    }
     .sprout-logo{
         width: auto;
         height: 40px;
@@ -106,13 +114,23 @@
     .gray{
         color: var(--ss-c-gray);
     }
+    .profile{
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        background: #C4C4C4;
+        margin-top: 8px;
+    }
+    .admin{
+        color: hsl(189, 59%, 45%);
+    }
     .customize-search{
         background: none;
         border: none;
         color: var(--ss-c-white);
         text-align: center;
         border-radius: none;
-        border-bottom: 5px solid var(--ss-c-gray);
+        border-bottom: 3px solid var(--ss-c-gray);
   
     }
     .search-btn{

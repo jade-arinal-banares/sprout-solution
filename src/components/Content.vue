@@ -8,7 +8,7 @@
             </div>
             <div>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-plus"></i> Post an Announcement
+            <button type="button" class="btn btn-success post-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-plus"></i> Post an Announcement
             </button>
 
                 <!-- Modal -->
@@ -62,17 +62,23 @@
                 <span class="all-green"><span>10</span> All</span>
                 <span class="all-orange"><span>10</span> Drafts</span> 
             </div>
-            <div>
-                <!-- <div class="dropdown">
-                    <button class="btn dropdown-toggle filter-drpdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Filter by
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </div> -->
+            <div class="d-flex">
+                 <div>
+                    <form class="form-inline" method="GET">
+                       <div class="filter">
+                            <select class="form-select form-control filter-drpdown" required aria-label="select example">
+                                <option>Filter by</option>
+                                <option value="title">Title</option>
+                                <option value="message">Message</option>
+                                <option value="sentby">Sent by</option>
+                                <option value="sent">Sent Through</option>
+                                <option value="date_created">Date Created</option>
+                                <option value="start_date">Start Date</option>
+                                <option value="end_date">End Date</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
                 <div>
                     <form class="form-inline" method="GET">
                         <div class="input-group">
@@ -90,7 +96,7 @@
                     <th scope="col">Title</th>
                     <th scope="col">Message</th>
                     <th scope="col">Sent By</th>
-                    <th scope="col">Sent Through</th>
+                    <th scope="col">Sent Through <i class="fa fa-info-circle info"></i></th>
                     <th scope="col">Date Created</th>
                     <th scope="col">Start Date</th>
                     <th scope="col">End Date</th>
@@ -238,40 +244,51 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="7">
-                        <div class="dropdown justify-content">Items per page 
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                10
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <button class="dropdown-item" type="button">Action</button>
-                                <button class="dropdown-item" type="button">Another action</button>
-                                <button class="dropdown-item" type="button">Something else here</button>
+                    <td colspan="7" >
+                        <div class="d-flex justify-content-between">
+                            <div class="dropdown">Items per page 
+                                <button class="btn dropdown-toggle item-page" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    10
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <button class="dropdown-item" type="button">Action</button>
+                                    <button class="dropdown-item" type="button">Another action</button>
+                                    <button class="dropdown-item" type="button">Something else here</button>
+                                </div>
+                            </div>
+                            <div class="pagination-center">
+                                <button class="btn btn-arrow disabled" type="button" aria-expanded="false">
+                                    <i class="fa fa-step-backward"></i>
+                                </button>
+                                <button class="btn btn-arrow disabled" type="button" aria-expanded="false">
+                                    <i class="fa fa-caret-left"></i>
+                                </button>
+                                Page
+                                <button class="btn item-page" type="button" aria-expanded="false">
+                                    1
+                                </button>
+                                of 1
+                                <button class="btn btn-arrow disabled" type="button" aria-expanded="false">
+                                    <i class="fa fa-caret-right"></i>
+                                </button>
+                                <button class="btn btn-arrow disabled" type="button" aria-expanded="false">
+                                    <i class="fa fa-step-forward"></i>
+                                </button>
+                            </div>
+                            <div>
+                                <p>Showing 1 - 10 of 1</p>
                             </div>
                         </div>
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination ">
-                                <li class="page-item disabled">
-                                <a class="page-link page" href="#" tabindex="-1"><font-awesome-icon icon="fa-solid fa-backward-fast" /></a>
-                                </li>
-                                <li class="page-item disabled">
-                                <a class="page-link page" href="#" tabindex="-1"><font-awesome-icon icon="fa-solid fa-backward-fast" /></a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                <a class="page-link" href="#">Next</a>
-                                </li>
-                            </ul>
-                        </nav>
-
-
                     </td>
                 </tr>
             </tbody>
         </table>
+        <!-- Back to top-->
+    <div id="toTop">
+      <i class="fa fa-arrow-up"></i>
     </div>
+    </div>
+    
 </template>
 
 
@@ -281,11 +298,16 @@
     .main-content{
         padding: 50px;
     }
+    .info{
+        color: #1471EB;
+        font-size: 18px;
+    }
     .all-green{
         background: hsl(139, 100%, 95%);
         padding: 5px 10px;
         font-weight: 700;
         color: hsl(140, 77%, 38%);
+        margin-right: 10px;
     }
     .all-green > span{
         background: hsl(140, 77%, 38%);
@@ -300,17 +322,29 @@
         border-radius: 10px;
         font-weight: 700;   
     }
-
+    .post-btn{
+        background: hsl(140, 77%, 38%);
+    }
     .second-section{
         margin: 20px 0;
     }
     .search-bgnone{
         background: var(--ss-c-white);
     }
-    .filter-drpdown{
-        border: 1px solid var(--ss-c-gray);
+    .filter{
+        margin-right: 20px;
     }
-
+    .filter-drpdown{
+        max-width: 500px;
+        min-width: 280px;
+    }
+    .pagination-center > .btn-arrow{
+        border: none;
+    }
+    .item-page{
+        border: 1px solid var(--ss-c-gray);
+        font-size: 14px;
+    }
     td > span{
         color: var(--ss-c-gray);
         font-size: 14px;
@@ -318,4 +352,23 @@
     td {
         font-weight: 400;
     }
+    #toTop {
+        padding: 3px 8px;
+        background: rgba(0, 0, 0, 0.8);
+        color: hsl(91, 41%, 44%);
+        position: fixed;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        bottom: 0;
+        right: 5px;
+        font-size: 25px;
+        display: none;
+        transition: 0.9s;
+    }
+    #toTop:hover{
+        cursor: pointer;
+        color: hsl(91, 47%, 59%);
+    }
+    
+
 </style>
