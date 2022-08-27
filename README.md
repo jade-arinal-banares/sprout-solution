@@ -30,13 +30,11 @@ Requirements:
 
 My Output
 
-![Sprout Solution](./sprout_img/sdghSDkExSfsx.svg)
-
+![Sprout Solution](./sprout_img/sJUdkghHsds.jpg)
+![Sprout Solution](./sprout_img/skYsjNdhMLds.jpg)
 ### Website
 
 - Sprout Solution: [Sprout Solution](https://sprout.ph/)
-
-## The process
 
 ### Built with
 

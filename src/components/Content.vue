@@ -3,7 +3,7 @@
         <!-- Announcement Section -->
         <div class="d-flex justify-content-between">
             <div class="row justify-content-start">
-                <h2>Announcements</h2><br>
+                <h3>Announcements</h3><br>
                 <p>View, create, or edit announcements for all employees of your company</p>
             </div>
             <div>
