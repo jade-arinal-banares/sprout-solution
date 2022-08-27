@@ -103,147 +103,10 @@
                 </tr>
             </thead>
             <tbody id="sprout-data">
-                <!-- 1st Row  -->
-                <tr>
-                    <td>[FOR YOUR ACTIO...</td>
-                    <td>In line with the inc...</td>
-                    <td>Roe, Ken</td>
-                    <td><i class="fa-solid fa-mobile-screen"></i></td>
-                    <td>02/17/2022</td>
-                    <td>02/18/2022<br>
-                        <span>09:30 AM</span>
-                    </td>
-                    <td>02/22/2022<br>
-                        <span>7:30 PM</span>
-                    </td>
-                </tr>
-                <!-- 2nd Row  -->
-                <tr>
-                    <td>Annual Physical E...</td>
-                    <td>In compliance with...</td>
-                    <td>Roe, Ken</td>
-                    <td><i class="fa fa-solid fa-bookmark"></i></td>
-                    <td>08/30/2020</td>
-                    <td>09/01/2020<br>
-                        <span>09:00 AM</span>
-                    </td>
-                    <td>09/30/2020<br>
-                        <span>6:00 PM</span>
-                    </td>
-                </tr>
-                <!-- 3rd Row  -->
-                <tr>
-                    <td>Mid-Autumn Festi...</td>
-                    <td>We wish everone a...</td>
-                    <td>Doe, Jane</td>
-                    <td></td>
-                    <td>08/22/2020</td>
-                    <td>08/23/2020<br>
-                        <span>12:00 PM</span>
-                    </td>
-                    <td>09/30/2020<br>
-                        <span>9:00 AM</span>
-                    </td>
-                </tr>
-                <!-- 4th Row  -->
-                <tr>
-                    <td scope="row">50th General Asse...</td>
-                    <td>Expelliarmus! Chec...</td>
-                    <td>Doe, John</td>
-                    <td></td>
-                    <td>08/15/2020</td>
-                    <td>08/15/2020<br>
-                        <span>9:00 AM</span>
-                    </td>
-                    <td>08/25/2020<br>
-                        <span>6:00 PM</span>
-                    </td>
-                </tr>
-                <!-- 5th Row  -->
-                <tr>
-                    <td>New Employees</td>
-                    <td>Let us all welcom...</td>
-                    <td>King, Chow</td>
-                    <td></td>
-                    <td>08/10/2020</td>
-                    <td>08/15/2020<br>
-                        <span>8:30 AM</span>
-                    </td>
-                    <td>08/18/2020<br>
-                        <span>6:00 PM</span>
-                    </td>
-                </tr>
-                <!-- 6th Row  -->
-                <tr>
-                    <td>Stocks as of Aug...</td>
-                    <td>Our investors have...</td>
-                    <td>Kin, Chow</td>
-                    <td></td>
-                    <td>07/30/2020</td>
-                    <td>08/01/2020<br>
-                        <span>8:30 AM</span>
-                    </td>
-                    <td>08/04/2020<br>
-                        <span>6:00 PM</span>
-                    </td>
-                </tr>
-                <!-- 7th Row  -->
-                <tr>
-                    <td>Tip of the Week</td>
-                    <td>To stay hydrated, d...</td>
-                    <td>Roe, Ken</td>
-                    <td></td>
-                    <td>02/26/2020</td>
-                    <td>02/27/2020<br>
-                        <span>9:00 AM</span>
-                    </td>
-                    <td>03/15/2020<br>
-                        <span>6:00 PM</span>
-                    </td>
-                </tr>
-                <!-- 8th Row  -->
-                <tr>
-                    <td>Employees of the M...</td>
-                    <td>Congratulations to...</td>
-                    <td>King, Chow</td>
-                    <td></td>
-                    <td>01/12/2020</td>
-                    <td>01/13/2020<br>
-                        <span>9:00 AM</span>
-                    </td>
-                    <td>01/14/2020<br>
-                        <span>6:00 PM</span>
-                    </td>
-                </tr>
-                <!-- 9th Row  -->
-                <tr>
-                    <td>Breakfast Menu</td>
-                    <td>We will be introduci...</td>
-                    <td>Gus, Amon</td>
-                    <td></td>
-                    <td>12/15/2019</td>
-                    <td>12/20/2019<br>
-                        <span>9:00 AM</span>
-                    </td>
-                    <td>12/20/2019<br>
-                        <span>6:00 PM</span>
-                    </td>
-                </tr>
-                <!-- 10th Row  -->
-                <tr>
-                    <td>Cafe Relocation</td>
-                    <td>With the ongoing re...</td>
-                    <td>Lavjsta, Asta</td>
-                    <td></td>
-                    <td>12/14/2019</td>
-                    <td>12/15/2019<br>
-                        <span>9:00 AM</span>
-                    </td>
-                    <td>12/19/2020<br>
-                        <span>6:00 PM</span>
-                    </td>
-                </tr>
-                <tr>
+               
+                
+            </tbody>
+            <tr>
                     <td colspan="7" >
                         <div class="d-flex justify-content-between">
                             <div class="dropdown">Items per page 
@@ -281,12 +144,11 @@
                         </div>
                     </td>
                 </tr>
-            </tbody>
         </table>
         <!-- Back to top-->
-    <div id="toTop">
-      <i class="fa fa-arrow-up"></i>
-    </div>
+        <div id="toTop">
+            <i class="fa fa-arrow-up"></i>
+        </div>
     </div>
     
 </template>
@@ -368,6 +230,11 @@
     #toTop:hover{
         cursor: pointer;
         color: hsl(91, 47%, 59%);
+    }
+
+    .mobile{
+        margin-left: 5px;
+        font-size: 18px;
     }
     
 

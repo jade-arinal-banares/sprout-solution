@@ -4,7 +4,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark sprout-nav">
         <div>
             <a class="navbar-brand" href="#">
-                <img src="../icon/sJUdkghHsd.png" class="sprout-logo" alt=""> <span class="gray">|</span> HR
+                <img src="../icon/sJUdkghHsd.png" class="sprout-logo" alt=""> <span class="gray">|</span> <span class="hr">HR</span>
             </a>
         </div>
         <!--Burger Menu-->
@@ -103,6 +103,11 @@
 </template>
 
 <style>
+    .hr{
+        font-weight: 100;
+        font-size: 25px;
+        color: rgb(243, 243, 243);
+    }
     .sprout-nav{
         background: #333333;
     }

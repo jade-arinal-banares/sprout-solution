@@ -2,15 +2,6 @@
 
 ![Design preview for the Landing Page](./sprout_img/xDscnHgsjds.svg)
 
-## Table of contents
-- [Overview](#overview)
-  - [The Objectives](#the-objectives)
-  - [Screenshot](#screenshot)
-  - [Website](#website)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Resources](#resources)
-
 ## Overview
 
 ### The Objectives
@@ -39,7 +30,7 @@ Requirements:
 
 My Output
 
-![Sprout Solution](./sprout_img/sXjrfdHmqwE.png)
+![Sprout Solution](./sprout_img/sdghSDkExSfsx.svg)
 
 ### Website
 
@@ -54,8 +45,11 @@ My Output
 - CSS Grid
 - Desktop First Workflow
 - Bootstrap
+- JSON (Data handling)
 
 ## Resources
 
 - Bootstrap: [Bootstrap](https://getbootstrap.com/)
 - Vue JS: [VueJS](https://vuejs.org/)
+- Sass: [Sass](https://sass-lang.com/)
+- Font Awesome: [Font](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css)

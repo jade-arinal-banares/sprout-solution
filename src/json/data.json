@@ -3,90 +3,110 @@
      "title":"[FOR YOUR ACTIO...",
      "message":"In line with the inc...",
      "sentby":"Roe, Ken", 
-     "sent":"", 
-     "date":"02/17/2022", 
-     "start":"02/18/2022", 
-     "end":"02/22/2022"
+     "sent":"<i class='fa fa-bookmark'></i>", 
+     "date":"02/17/2022",
+     "start":"02/18/2022",
+     "startTime":"9:30 AM", 
+     "end":"02/22/2022",
+     "endTime":"7:30 PM"
     },
     {
      "title":"Annual Physical E...", 
      "message":"In compliance with...", 
      "sentby":"Roe, Ken", 
-     "sent":"", 
+     "sent":"<i class='fa fa-bookmark'></i> <i class='fa fa-mobile mobile'></i>", 
      "date":"08/30/2020", 
      "start":"09/01/2020", 
-     "end":"09/30/2020"
+     "startTime":"9:00 AM", 
+     "end":"09/30/2020",
+     "endTime":"6:00 PM"
     },
     {
      "title":"Mid-Autumn Festi...", 
      "message":"We wish everone a...", 
      "sentby":"Doe, Jane", 
-     "sent":"", 
+     "sent":"<i class='fa fa-bookmark'></i> <i class='fa fa-mobile mobile'>", 
      "date":"08/22/2020", 
      "start":"08/23/2020", 
-     "end":"09/30/2020"
+     "startTime":"12:00 PM",
+     "end":"09/30/2020",
+     "endTime":"9:00 AM"
     },
     {
      "title":"50th General Asse...", 
      "message":"Expelliarmus! Chec...",
      "sentby":"Doe, John", 
-     "sent":"", 
+     "sent":"<i class='fa fa-bookmark'></i> <i class='fa fa-mobile mobile'>", 
      "date":"08/15/2020", 
      "start":"08/15/2020", 
-     "end":"08/25/2020"
+     "startTime":"9:00 PM",
+     "end":"08/25/2020",
+     "endTime":"6:00 PM"
     },
     {
      "title":"New Employees", 
      "message":"Let us all welcom...", 
      "sentby":"King, Chow", 
-     "sent":"", 
+     "sent":"<i class='fa fa-bookmark'></i>", 
      "date":"08/10/2020", 
      "start":"08/15/2020", 
-     "end":"08/18/2020"
+     "startTime":"8:30 AM",
+     "end":"08/18/2020",
+     "endTime":"6:00 PM"
     },
     {
      "title":"Stocks as of Aug...", 
      "message":"Our investors have...", 
      "sentby":"Kin, Chow", 
-     "sent":"", 
+     "sent":"<i class='fa fa-bookmark'></i>", 
      "date":"07/30/2020", 
      "start":"08/01/2020", 
-     "end":"08/04/2020"
+     "startTime":"8:30 AM",
+     "end":"08/04/2020",
+     "endTime":"6:00 PM"
     },
     {
      "title":"Tip of the Week", 
      "message":"To stay hydrated, d...", 
      "sentby":"Roe, Ken", 
-     "sent":"", 
+     "sent":"<i class='fa fa-bookmark'></i>", 
      "date":"02/26/2020", 
      "start":"02/27/2020", 
-     "end":"03/15/2020"
+     "startTime":"9:00 AM",
+     "end":"03/15/2020",
+     "endTime":"6:00 PM"
     },
     {
      "title":"Employees of the M...", 
      "message":"Congratulations to...", 
      "sentby":"King, Chow", 
-     "sent":"", 
+     "sent":"<i class='fa fa-mobile mobile'>", 
      "date":"01/12/2020", 
-     "start":"01/13/2020", 
-     "end":"01/14/2020"
+     "start":"01/13/2020",
+     "startTime":"9:00 AM", 
+     "end":"01/14/2020",
+     "endTime":"6:00 PM"
     },
     {
      "title":"Breakfast Menu", 
      "message":"We will be introduci...", 
      "sentby":"Gus, Amon", 
-     "sent":"", 
+     "sent":"<i class='fa fa-mobile mobile'>", 
      "date":"12/15/2019", 
      "start":"12/20/2019", 
-     "end":"12/20/2019"
+     "startTime":"9:00 AM",
+     "end":"12/20/2019",
+     "endTime":"6:00 PM"
     },
     {
     "title":"Cafe Relocation", 
     "message":"With the ongoing re...", 
     "sentby":"Lavjsta, Asta", 
-    "sent":"", 
+    "sent":"<i class='fa fa-bookmark'></i> <i class='fa fa-mobile mobile'>", 
     "date":"12/14/2019", 
     "start":"12/15/2019", 
-    "end":"12/19/2020"
+    "startTime":"9:00 AM",
+    "end":"12/19/2020",
+    "endTime":"6:00 PM"
     }
 ]

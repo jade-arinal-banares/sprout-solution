@@ -9,6 +9,6 @@ import Content from "./components/Content.vue";
     </header>
 
     <main>
-      <Content msg="You did it!"/>
+      <Content/>
     </main>
 </template>
