@@ -47,7 +47,7 @@ My Output
 
 ## Resources
 
-- Bootstrap: [Bootstrap](https://getbootstrap.com/)
-- Vue JS: [VueJS](https://vuejs.org/)
-- Sass: [Sass](https://sass-lang.com/)
-- Font Awesome: [Font](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css)
+[Bootstrap](https://getbootstrap.com/)
+[VueJS](https://vuejs.org/)
+[Sass](https://sass-lang.com/)
+[Font](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css)
