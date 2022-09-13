@@ -32,9 +32,26 @@ My Output
 
 ![Sprout Solution](./sprout_img/sJUdkghHsds.jpg)
 ![Sprout Solution](./sprout_img/skYsjNdhMLds.jpg)
+
 ### Website
 
 - Sprout Solution: [Sprout Solution](https://sprout.ph/)
+
+### Running the project
+
+1. Download this repository or clone it using Git Clone
+```
+git clone https://github.com/jade-arinal-banares/Sprout-Solution.git
+```
+
+Go to terminal and type the following
+
+2. Run Server
+```
+npm run dev
+```
+
+Copy the url link and paste it to browser
 
 ### Built with
 
