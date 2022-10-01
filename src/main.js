@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import '../javascript/data_table';
+import './javascript/data_table';
 import './assets/variables.css'
 
 

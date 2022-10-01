@@ -1,6 +1,6 @@
 # Welcome to Sprout Solution!
 
-![Design preview for the Landing Page](./sprout_img/xDscnHgsjds.svg)
+![Design preview for the Landing Page](./src/sprout_img/xDscnHgsjds.svg)
 
 ## Overview
 
@@ -30,8 +30,8 @@ Requirements:
 
 My Output
 
-![Sprout Solution](./sprout_img/sJUdkghHsds.jpg)
-![Sprout Solution](./sprout_img/skYsjNdhMLds.jpg)
+![Sprout Solution](./src/sprout_img/sJUdkghHsds.jpg)
+![Sprout Solution](./src/sprout_img/skYsjNdhMLds.jpg)
 
 ### Website
 
