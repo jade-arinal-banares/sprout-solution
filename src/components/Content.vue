@@ -103,8 +103,7 @@
                 </tr>
             </thead>
             <tbody id="sprout-data">
-               
-                
+               <!-- Table content goes here -->
             </tbody>
             <tr>
                     <td colspan="7" >
